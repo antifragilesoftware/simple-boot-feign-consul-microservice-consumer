@@ -1,0 +1,9 @@
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+consumed:
+  microservice:
+    name: "microservice1"
