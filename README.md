@@ -1,4 +1,4 @@
-# Sample Spring Boot Service that consumes another service through Feign and direct to a Url
+# Sample Spring Boot Service that consumes another service through Feign and Consul
 
 ## To Build into Docker using Maven
 
@@ -6,13 +6,13 @@ First make sure you're running in an environment that has docker available to yo
 
 $ ./mvnw package docker:build
 
-Once completed you will have an antifragilesoftware/simple-boot-feign-direct-microservice-consumer image available, as seen by executing:
+Once completed you will have an antifragilesoftware/simple-boot-feign-microservice-consumer-consul image available, as seen by executing:
 
 $ docker images
 
 ```
 REPOSITORY                                                      TAG                 IMAGE ID            CREATED             SIZE
-antifragilesoftware/simple-boot-feign-direct-microservice-consumer                      latest              39fc873649d9        3 seconds ago       667.6 MB
+antifragilesoftware/simple-boot-feign-microservice-consumer-consul                      latest              39fc873649d9        3 seconds ago       667.6 MB
 ```
 
 

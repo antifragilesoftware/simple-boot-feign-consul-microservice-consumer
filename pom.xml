@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.russmiles.antifragilesoftware</groupId>
-    <artifactId>simple-boot-feign-direct-microservice-consumer</artifactId>
+    <artifactId>simple-boot-feign-microservice-consumer-consul</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>simple-boot-feign-direct-microservice-consumer</name>
-    <description>Consumes a microservice directly using Feign</description>
+    <name>simple-boot-feign-microservice-consumer-consul</name>
+    <description>Consumes a microservice directly using Feign and Consul</description>
 
     <parent>
         <groupId>org.springframework.cloud</groupId>
